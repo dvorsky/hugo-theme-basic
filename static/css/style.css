@@ -1,30 +1,65 @@
 body {
-  -webkit-font-smoothings: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+    -webkit-font-smoothings: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(44, 49, 59);
+    color: rgba(255, 255, 255, 0.7);
+
+    margin: 4rem auto;
+    width: 60%;
+}
+
+a {
+    color: rgba(255, 255, 255, .7);
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+a.bb:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 code {
-  padding: 2px 4px;
-  font-size: 90%;
-  background-color: #eeeeee;
-  /* border-radius: 4px; */
+    padding: 2px 4px;
+    font-size: 90%;
+    background-color: #3b3b3b;
+    /* border-radius: 4px; */
 }
 
 pre {
-  display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  line-height: 1.4;
-  word-break: break-all;
-  word-wrap: break-word;
-  border: 1px solid #ccc;
-  /* border-radius: 4px; */
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    line-height: 1.4;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
 }
 
 pre,
 code {
-  font-family: monocode, monospace;
-  -webkit-font-smoothings: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: monocode, monospace;
+    -webkit-font-smoothings: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+figure img {
+    max-width: 100%;
 }
